@@ -130,7 +130,7 @@ class Form extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <img src={logo} className={styles.media} alt="DO Buchausleihe" />
+        <img src={logo} className={styles.media} alt="Buchausleihe" />
         {this.state.status === "rented" ? (
           <Return
             bookname={this.state.bookname}

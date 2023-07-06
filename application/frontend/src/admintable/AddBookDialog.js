@@ -21,7 +21,7 @@ const AddBookDialog = ({
     <DialogContent className={styles.content}>
       <DialogContentText>
         Please fill in the name of the book and click "add" to submit it to the
-        DO-Bib
+        Bib
       </DialogContentText>
       <div className={styles.form}>
         <TextField
